@@ -10,9 +10,9 @@ package com.example.android.quakereport;
 
 public class EarthQuakeRecord {
     private float mEQMag=0.0f;
-    private String[] mEQLocationDate=new String[2];
+    private StringBuilder[] mEQLocationDate=new StringBuilder[2];
 
-    public EarthQuakeRecord(float val_magnitude,String val_location, String val_date){
+    public EarthQuakeRecord(float val_magnitude,StringBuilder val_location, StringBuilder val_date){
         mEQMag=val_magnitude;
         mEQLocationDate[0]=val_location;
         mEQLocationDate[1]=val_date;
@@ -22,11 +22,11 @@ public class EarthQuakeRecord {
         return mEQMag;
     }
 
-    public String getEQLocation(){
+    public StringBuilder getEQLocation(){
         return mEQLocationDate[0];
     }
 
-    public String getEQDate(){
+    public StringBuilder getEQDate(){
         return mEQLocationDate[1];
     }
 }
