@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2016. This creation of Vidit Kothari (c) cannot be reproduced or modified or resell without prior written consent 
+  ~~~~~~~~~~~~~~~~~~~~~-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/quake_attrib_mag"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        tools:text="11.0" />
+
+    <TextView
+        android:id="@+id/quake_attrib_location"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        tools:text="Rio De Jenario" />
+
+    <TextView
+        android:id="@+id/quake_attrib_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="June 24, 2000"
+        android:layout_gravity="center_vertical"
+        tools:gravity="left"/>
+
+</LinearLayout>
